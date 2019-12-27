@@ -1,0 +1,69 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+.content {
+    padding-bottom: 35px;
+    padding-top: 200px;
+}
+
+div.content {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+div.nav-bar {
+    margin: 25px 15px;
+    font-size: small;
+}
+
+img {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    padding: 15px 5px;
+    color: black;
+}
+
+.buttonimg {
+    background-image: url(appdrawer.png);
+    display: inline-block;
+}
+
+.signinbutton {
+    background-color: #4483f0;
+    border-radius: 3px;
+    color: white;
+}
+
+div.nav-bar-container {
+    margin-top: 20px;
+}
+
+div.nav-bar-right {
+    float: right;
+    height: 40px;
+}
+
+div.nav-bar-left {
+    float: left;
+    height: 40px;
+    margin:auto;
+}

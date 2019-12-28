@@ -13,6 +13,10 @@ nav a {
     padding: 8px 8px;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 .leftnav {
     float: left;
 }
@@ -54,22 +58,57 @@ li {
     padding-right: 12px;
 }
 
+.signin a:hover {
+    text-decoration: none;
+}
+
 .center {
     margin-top: 165px;
     text-align: center;
 }
 
 .search {
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-.search input[type="search"] {
     border-style: solid;
-    width: 550px;
-    height: 50px;
-    border-radius: 25px;
+    margin: 30px auto;
+    width: 600px;
+    height: 45px;
+    border-radius: 22.5px;
     border-color: #dfe1e5;
     border-width: 1px;
     font-size: 1em;
 }
+
+.search input[type="search"] {
+    height: 45px;
+    width: 500px;
+    font-size: 1em;
+    border-style: none;
+    outline: none;
+}
+
+
+.searchbuttons button {
+    color: grey;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 0.9em;
+    border-radius: 5px;
+}
+
+.searchbuttons button:hover {
+    border: 1px solid rgb(209, 207, 207);
+    color: rgb(61, 61, 61);
+    cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+button:focus {outline:0;}
+
+

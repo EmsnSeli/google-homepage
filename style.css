@@ -53,3 +53,23 @@ li {
     padding-left: 12px;
     padding-right: 12px;
 }
+
+.center {
+    margin-top: 165px;
+    text-align: center;
+}
+
+.search {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.search input[type="search"] {
+    border-style: solid;
+    width: 550px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: #dfe1e5;
+    border-width: 1px;
+    font-size: 1em;
+}

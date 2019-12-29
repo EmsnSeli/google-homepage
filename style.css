@@ -78,6 +78,10 @@ li {
     font-size: 1em;
 }
 
+.search:hover{
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
 .search input[type="search"] {
     height: 45px;
     width: 500px;
@@ -137,3 +141,4 @@ footer a {
     position: absolute;
     transform: translate(20%,50%);
 }
+
